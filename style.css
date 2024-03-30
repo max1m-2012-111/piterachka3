@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    background-color: rgba(19, 8, 115, 1);
+}
+
+header {
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    background-color: black
+}
+
+.button {
+    background-color: rgba(167, 244, 61, 1);
+    color: whitesmoke;
+    text-decoration:whitesmoke;
+    padding: 25px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 36px;
+    margin-top: ;
+    margin-bottom: ;
+}
+
+p {
+    font-size: 24px;
+    color: black;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+    display: flex;
+    color: whitesmoke;
+}
+
+article {
+    background-color: white;
+    padding:70px ;
+    width: 400px;
+    margin: 5px;
+    color: black;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: grey;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+
+footer {
+    background-color: rgb(25, 0, 255);
+    padding:5px ;
+    display: flex;
+}
+
+footer a {
+    margin-right:40px ;
+}
+
+footer p {
+    font-size: 24px;
+}
